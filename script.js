@@ -2,7 +2,7 @@
 let ip = document.getElementById("fname")
 ip.addEventListener("blur", () => {
     
-	let temp = ip.value.toUpperCase()
+	ip.value = ip.value.toUpperCase()
 })
 
 
