@@ -1,6 +1,6 @@
 //your JS code here. If required.
 let ip = document.getElementById("fname")
-ip.addEventListener("blur", (e) => {
+ip.addEventListener("blur", () => {
     
 	let temp = ip.value.toUpperCase()
 })
